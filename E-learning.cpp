@@ -7,9 +7,13 @@ string course;
 public:
 E-learning();
 public void set_id(int id)();
-public void get_id()();
+public int get_id(){
+	return id;
+};
 public void set_course(string course)();
-public void string get_course()();
+public void string get_course(){
+	return course;
+};
 
 
 };
